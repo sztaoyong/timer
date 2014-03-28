@@ -15,10 +15,15 @@
   <![endif]-->
 </head>
 
-<body onload="startTimer()">
+<body onload="widget()"> 
   <p> time on this case </p>
-  <p id="timer"></p>
-  <button type="button" onclick="computeAHT()">Resolve Case!</button>
-  <script src="js/scripts.js"></script>
+  <p id="timer"> </p>
+  <button type="button" onclick="lockCase()">Lock Case!</button>
+  <button id="resolvebutton">Resolve Case!</button>
+
+  <p> simulate returned information </p>
+  <p id="thisCase"> </p>
+  <p id="average"> </p>
+  <script src="js/aht.js"></script>
 </body>
 </html>
